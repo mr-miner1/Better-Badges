@@ -1,0 +1,2 @@
+# Better Badges
+ PowerCord Theme
