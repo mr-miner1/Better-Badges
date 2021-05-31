@@ -1,0 +1,8 @@
+{
+    "name": "Better Badges",
+    "description": "Adds cool animations to discord's badges",
+    "version": "0.5",
+    "author": "mr_miner#6592",
+    "theme": "theme.css",
+    "license": "MIT"
+}
