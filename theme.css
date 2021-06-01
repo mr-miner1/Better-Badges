@@ -88,11 +88,6 @@
     filter: hue-rotate(350deg);
     transform: scale(1.2);
 }
-/* nowo */
-.badgeList-HtCfKd{
-  display: block;
-  margin: 3px;
-}
 /* verified dev */
 .profileBadgeVerifiedDeveloper-195KfD{
   animation-name: devbadge;
@@ -170,6 +165,7 @@
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848968894265163798/755084673490878534.gif");
   transform: scale(1.3);
 }
+/* game activity*/
 .topSectionSpotify-1lI0-P [class*=HypeSquad]:hover, .topSectionPlaying-1J5E4n [class*=HypeSquad]:hover{
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503318497198092/whitesquadbadge.png");
   filter: drop-shadow(0px 0px 2px white);
@@ -177,8 +173,20 @@
 }
 .topSectionSpotify-1lI0-P .profileBadgeVerifiedDeveloper-195KfD, .topSectionSpotify-1lI0-P .profileBadgePartner-j6Lwhr, .topSectionSpotify-1lI0-P .profileBadgeHypesquad-12E2P6, .topSectionSpotify-1lI0-P [class*=GuildSubscriberlvl] {
   animation-name: none;
-
 }
 .topSectionPlaying-1J5E4n .profileBadgeVerifiedDeveloper-195KfD, .topSectionPlaying-1J5E4n .profileBadgePartner-j6Lwhr, .topSectionPlaying-1J5E4n .profileBadgeHypesquad-12E2P6, .topSectionPlaying-1J5E4n [class*=GuildSubscriberlvl]:hover {
   animation-name: none;
+}
+.profileBadgeStaff-3BXdTO:hover{
+  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849207087409528842/staff.png");
+  transform: scale(1.2);
+  filter: contrast(1.35) brightness(0.69) saturate(1.5);
+}
+.profileBadgeStaff-3BXdTO{
+  transition-duration: 0.75s;
+  /* filter: contrast(1.35); */
+}
+.topSectionSpotify-1lI0-P .profileBadgeStaff-3BXdTO:hover:hover, .topSectionPlaying-1J5E4n .profileBadgeStaff-3BXdTO:hover:hover{
+  background-image:url("https://cdn.discordapp.com/attachments/756856464374628352/849211258950910012/staff.png");
+  filter: contrast(1) brightness(1) saturate(1);
 }
