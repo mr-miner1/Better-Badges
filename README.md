@@ -6,5 +6,5 @@ A small theme which adds neat animations to discord badges everything is in one 
 Contains all badges except "Early Supporter".
 ### INSTALLATION FOR POWERCORD
 Clone the https://github.com/mr-miner1/Better-Badges in your themes folder
-### INSTALLTION FOR BETTER DISCORD**
+### INSTALLTION FOR BETTER DISCORD
 Download the [BetterBadges(BD).theme.css](https://github.com/mr-miner1/Better-Badges/blob/main/BetterBadges(BD).theme.css) and put it in your themes folder
