@@ -29,11 +29,6 @@
   transform: scale(1.5);
   filter: drop-shadow(0px 0px 2px #45ddc0)
 }
-/* .profileBadge24-179Xm3[class*=HypeSquad]:hover{
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503318497198092/whitesquadbadge.png");
-  filter: drop-shadow(0px 0px 2px white);
-  transform: scale(1.5);
-} */
 /*partner badge*/
 .profileBadgePartner-j6Lwhr{
   animation-name: partnerbadge;
@@ -161,9 +156,13 @@
 /* early supporter badge someday maybe :(
 .profileBadgeEarlySupporter-2ng_jL{}*/
 /* hype squad events*/
+.colored-1armap .profileBadgeHypesquad-12E2P6{
+  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218042898022431/events1.png");
+  transform: scale(1.2);
+}
 .profileBadgeHypesquad-12E2P6:hover{
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/848968894265163798/755084673490878534.gif");
-  transform: scale(1.3);
+  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
+    transform: scale(1.2);
 }
 /* game activity*/
 .topSectionSpotify-1lI0-P [class*=HypeSquad]:hover, .topSectionPlaying-1J5E4n [class*=HypeSquad]:hover{
@@ -184,7 +183,6 @@
 }
 .profileBadgeStaff-3BXdTO{
   transition-duration: 0.75s;
-  /* filter: contrast(1.35); */
 }
 .topSectionSpotify-1lI0-P .profileBadgeStaff-3BXdTO:hover:hover, .topSectionPlaying-1J5E4n .profileBadgeStaff-3BXdTO:hover:hover{
   background-image:url("https://cdn.discordapp.com/attachments/756856464374628352/849211258950910012/staff.png");
