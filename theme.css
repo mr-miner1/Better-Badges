@@ -45,7 +45,7 @@
 }
 .userPopout-3XzG_A [class*="GuildSubscriberlvl"]:hover,
 .topSectionNormal-2-vo2m [class*="GuildSubscriberlvl"]:hover {
-  transform: scale(0.98);
+  transform: scale(0.9);
   filter: contrast(1.35);
   background-image: url("https://cdn.discordapp.com/emojis/845808489238757426.gif");
 }
@@ -150,4 +150,10 @@
 .topSectionPlaying-1J5E4n [class*="profileBadgeHypeSquad"]:hover {
   --hypesquad-colour: white;
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503318497198092/whitesquadbadge.png");
+}
+.topSectionSpotify-1lI0-P [class*="GuildSubscriberlvl"]:hover,
+.topSectionPlaying-1J5E4n [class*="GuildSubscriberlvl"]:hover{
+  filter: brightness(1.3) opacity(75%);
+  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849951762127126548/boosterbadge.gif");
+  transform: scale(0.9);
 }
