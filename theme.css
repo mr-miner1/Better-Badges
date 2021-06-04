@@ -87,15 +87,17 @@
 .topSectionNormal-2-vo2m .profileBadgeHypesquad-12E2P6 {
   transform: scale(1.2);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218042898022431/events1.png");
+  transition-delay: 1s;
 }
 .userPopout-3XzG_A .profileBadgeHypesquad-12E2P6:hover,
 .topSectionNormal-2-vo2m .profileBadgeHypesquad-12E2P6:hover {
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
+  transition-delay: 0s;
 }
 
 /* Partner badge */
 .profileBadgePartner-j6Lwhr:hover {
-  transform: scale(0.98);
+  transform: scale(1);
   filter: contrast(1.35);
   transition-delay: 0ms;
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif");
@@ -103,7 +105,8 @@
 .profileBadgePartner-j6Lwhr{
     transition-delay: 2630ms;
     filter: contrast(1);
-    transform: scale(0.98);
+    transform: scale(1);
+    /* transition-duration: 0.5s; */
 }
 /* Certified moderator badge */
 .profileBadgeCertifiedModerator-1TQtjV {
@@ -165,7 +168,7 @@
 .topSectionPlaying-1J5E4n [class*="GuildSubscriberlvl"]:hover,
 .topSectionStreaming-1Tpf5X [class*="GuildSubscriberlvl"]:hover
 {
-  filter: brightness(1.1) opacity(75%) contrast(1.35);
+  filter: brightness(1.1) contrast(2) opacity(75%);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849951762127126548/boosterbadge.gif");
   transform: scale(0.9);
   transition-delay: 0s;
@@ -183,4 +186,12 @@
 .topSectionPlaying-1J5E4n .profileBadgePartner-j6Lwhr,
 .topSectionStreaming-1Tpf5X.profileBadgePartner-j6Lwhr{
   filter: brightness(2);
+  transition-delay: 2600ms;
+}
+.topSectionSpotify-1lI0-P .profileBadgeHypesquad-12E2P6:hover,
+.topSectionPlaying-1J5E4n .profileBadgeHypesquad-12E2P6:hover,
+.topSectionStreaming-1Tpf5X.profileBadgeHypesquad-12E2P6:hover{
+  transition-delay: 0ms;
+  background-image: url("https://media.discordapp.net/attachments/756856464374628352/850268947823722506/events.gif");
+  
 }
