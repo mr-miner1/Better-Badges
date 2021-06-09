@@ -8,3 +8,6 @@ Contains all badges except "Early Supporter".
 Clone the https://github.com/mr-miner1/Better-Badges in your themes folder
 ### INSTALLTION FOR BETTER DISCORD
 Download the [BetterBadges(BD).theme.css](https://github.com/mr-miner1/Better-Badges/blob/main/BetterBadges(BD).theme.css) and put it in your themes folder
+### Support and Suggesions
+For support you can dm me on discord (mr_miner#6592).
+For suggestions and bug reports you can dm me or put them in the issues tab.
