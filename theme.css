@@ -182,7 +182,7 @@
   animation: devbadge 5s infinite normal linear;
 }
 
-/* Game activity */
+/* Game activity turns out discord decided to remove this soooooo this was some time well spent
 .topSectionSpotify-1lI0-P .profileBadgeStaff-3BXdTO:hover,
 .topSectionPlaying-1J5E4n .profileBadgeStaff-3BXdTO:hover,
 .topSectionStreaming-1Tpf5X .profileBadgeStaff-3BXdTO:hover
@@ -234,3 +234,9 @@
   transform: scale(1.3);
     animation: devbadge2 5s infinite normal linear;
 } 
+.topSectionSpotify-1lI0-P .profileBadgePremium-1KDZYC:hover,
+.topSectionPlaying-1J5E4n .profileBadgePremium-1KDZYC:hover,
+.topSectionStreaming-1Tpf5X .profileBadgePremium-1KDZYC:hover{
+  filter: contrast(10) invert(2) hue-rotate(350deg);
+  transform: scale(1.2);
+}*/
