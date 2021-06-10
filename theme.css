@@ -165,11 +165,12 @@
 
 /* Nitro badge */
 .profileBadgePremium-1KDZYC {
-  transition-duration: 1.2s;
+  transition-duration: 1s;
+  filter: contrast(1) hue-rotate(0deg);
 }
 .profileBadgePremium-1KDZYC:hover {
   transform: scale(1.2);
-  filter: hue-rotate(350deg);
+  filter: contrast(1.2) hue-rotate(-390deg);
 }
 
 /* Verified dev */
@@ -181,7 +182,9 @@
     transform: scale(1.2);
   animation: devbadge 5s infinite normal linear;
 }
-
+.layout-2DM8Md .profileBadgePartner-j6Lwhr:hover{
+  transform: scaleY(0.65);
+}
 /* Game activity turns out discord decided to remove this soooooo this was some time well spent
 .topSectionSpotify-1lI0-P .profileBadgeStaff-3BXdTO:hover,
 .topSectionPlaying-1J5E4n .profileBadgeStaff-3BXdTO:hover,
