@@ -11,3 +11,5 @@ Download the [BetterBadges(BD).theme.css](https://github.com/mr-miner1/Better-Ba
 ### Support and Suggesions
 For support you can dm me on discord (mr_miner#6592).
 For suggestions and bug reports you can dm me or put them in the issues tab.
+### Theme Preview
+![badgespreview 1](https://user-images.githubusercontent.com/83544549/121712960-ef932f00-caf9-11eb-9633-4a0f3e6dbd4e.gif)
