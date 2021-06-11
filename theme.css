@@ -182,64 +182,48 @@
     transform: scale(1.2);
   animation: devbadge 5s infinite normal linear;
 }
-.layout-2DM8Md .profileBadgePartner-j6Lwhr:hover{
+
+/* Badges EveryWhere Compatibiliy*/
+.layout-2DM8Md .profileBadgePartner-j6Lwhr:hover, .header-23xsNx .profileBadgePartner-j6Lwhr:hover{
   transform: scaleY(0.65);
 }
-/* Game activity turns out discord decided to remove this soooooo this was some time well spent
-.topSectionSpotify-1lI0-P .profileBadgeStaff-3BXdTO:hover,
-.topSectionPlaying-1J5E4n .profileBadgeStaff-3BXdTO:hover,
-.topSectionStreaming-1Tpf5X .profileBadgeStaff-3BXdTO:hover
-{
+.powercord-settings-item-inner .profileBadgeStaff-3BXdTO:hover{
   filter: contrast(1) brightness(1) saturate(1);
   background-image:url("https://cdn.discordapp.com/attachments/756856464374628352/849211258950910012/staff.png");
 }
-.topSectionSpotify-1lI0-P [class*="profileBadgeHypeSquad"]:hover,
-.topSectionPlaying-1J5E4n [class*="profileBadgeHypeSquad"]:hover,
-.topSectionStreaming-1Tpf5X [class*="profileBadgeHypeSquad"]:hover
-{
+.powercord-settings-item-inner [class*="profileBadgeHypeSquad"]:hover{
   --hypesquad-colour: white;
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503318497198092/whitesquadbadge.png");
 }
-.topSectionSpotify-1lI0-P [class*="GuildSubscriberlvl"]:hover,
-.topSectionPlaying-1J5E4n [class*="GuildSubscriberlvl"]:hover,
-.topSectionStreaming-1Tpf5X [class*="GuildSubscriberlvl"]:hover
+.powercord-settings-item-inner [class*="GuildSubscriberlvl"]:hover
 {
   filter: brightness(1.1) contrast(2) opacity(75%);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849951762127126548/boosterbadge.gif");
   transform: scale(0.9);
   transition-delay: 0s;
 }
-.topSectionSpotify-1lI0-P .profileBadgePartner-j6Lwhr:hover,
-.topSectionPlaying-1J5E4n .profileBadgePartner-j6Lwhr:hover,
-.topSectionStreaming-1Tpf5X.profileBadgePartner-j6Lwhr:hover{
-  transform: scale(0.98);
+.powercord-settings-item-inner .profileBadgePartner-j6Lwhr:hover{
+  transform: scaleY(0.65);
   filter: brightness(2);
   transition-delay: 0ms;
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/850066798271135784/partnerbadge2.gif");
   
 }
-.topSectionSpotify-1lI0-P .profileBadgePartner-j6Lwhr,
-.topSectionPlaying-1J5E4n .profileBadgePartner-j6Lwhr,
-.topSectionStreaming-1Tpf5X.profileBadgePartner-j6Lwhr{
-  filter: brightness(2);
-  transition-delay: 2600ms;
-}
-.topSectionSpotify-1lI0-P .profileBadgeHypesquad-12E2P6:hover,
-.topSectionPlaying-1J5E4n .profileBadgeHypesquad-12E2P6:hover,
-.topSectionStreaming-1Tpf5X.profileBadgeHypesquad-12E2P6:hover{
+.powercord-settings-item-inner .profileBadgeHypesquad-12E2P6:hover{
   transition-delay: 0ms;
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/850268947823722506/events.gif");
+  transform: scale(1.2);
   
 }
-.topSectionSpotify-1lI0-P .profileBadgeVerifiedDeveloper-195KfD:hover,
-.topSectionPlaying-1J5E4n .profileBadgeVerifiedDeveloper-195KfD:hover,
-.topSectionStreaming-1Tpf5X .profileBadgeVerifiedDeveloper-195KfD:hover{
+.powercord-settings-item-inner .profileBadgeVerifiedDeveloper-195KfD:hover{
   transform: scale(1.3);
     animation: devbadge2 5s infinite normal linear;
 } 
-.topSectionSpotify-1lI0-P .profileBadgePremium-1KDZYC:hover,
-.topSectionPlaying-1J5E4n .profileBadgePremium-1KDZYC:hover,
-.topSectionStreaming-1Tpf5X .profileBadgePremium-1KDZYC:hover{
-  filter: contrast(10) invert(2) hue-rotate(350deg);
+.powercord-settings-item-inner .profileBadgePremium-1KDZYC:hover{
+  background-image: url("https://discord.com/assets/386884eecd36164487505ddfbac35a9d.svg");
+  filter: hue-rotate(720deg);
   transform: scale(1.2);
-}*/
+}
+.powercord-settings-item-inner .profileBadgePremium-1KDZYC{
+  filter: hue-rotate(0deg);
+}
