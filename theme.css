@@ -78,7 +78,7 @@
 /* Booster badges */
 .topSectionNormal-2-vo2m [class*="GuildSubscriberlvl"], .headerTop-2cWpdB [class*="GuildSubscriberlvl"] {
   transition-duration: 0.5s;
-  transition-delay: 1.5s;
+  transition-delay: 0.95s;
 }
 
 [class*="GuildSubscriberlvl"]:hover {
@@ -99,10 +99,10 @@
 }
 
 /* Hype Squad badges */
-[class*="profileBadgeHypeSquad"] {
+[class*="profileBadgeHypeSquadOnline"] {
   transition-duration: 0.5s;
 }
-[class*="profileBadgeHypeSquad"]:hover {
+[class*="profileBadgeHypeSquadOnline"]:hover {
   transform: scale(1.5);
   filter: drop-shadow(0 0 2px var(--hypesquad-colour));
 }
@@ -120,14 +120,13 @@
 }
 
 /* Hype squad events badges */
-.userPopout-3XzG_A .profileBadgeHypesquad-12E2P6,
-.topSectionNormal-2-vo2m .profileBadgeHypesquad-12E2P6 {
-  transform: scale(1.2);
-  background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218042898022431/events1.png");
+.profileBadgeHypesquad-12E2P6 {
+  transform: scale(1) translateY(0px);
+  /* background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218042898022431/events1.png"); */
   transition-delay: 1s;
 }
-.userPopout-3XzG_A .profileBadgeHypesquad-12E2P6:hover,
-.topSectionNormal-2-vo2m .profileBadgeHypesquad-12E2P6:hover {
+.profileBadgeHypesquad-12E2P6:hover {
+    transform: scale(1.2) translateY(-1px);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif");
   transition-delay: 0s;
 }
@@ -184,7 +183,7 @@
 }
 
 /* Badges EveryWhere Compatibiliy*/
-.layout-2DM8Md .profileBadgePartner-j6Lwhr:hover, .header-23xsNx .profileBadgePartner-j6Lwhr:hover{
+.layout-2DM8Md .profileBadgePartner-j6Lwhr:hover, .header-23xsNx .profileBadgePartner-j6Lwhr:hover, .repliedMessage-VokQwo .profileBadgePartner-j6Lwhr:hover{
   transform: scaleY(0.65);
 }
 .powercord-settings-item-inner .profileBadgeStaff-3BXdTO:hover{
