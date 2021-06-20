@@ -226,3 +226,17 @@
 .powercord-settings-item-inner .profileBadgePremium-1KDZYC{
   filter: hue-rotate(0deg);
 }
+/* rainbowwwwwww */
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy{
+  background-image: 
+  linear-gradient(to right, #FF6663,#FEB144,#FDFD97,#9EE09E,#9EC1CF,#A05BFD, #CC99C9); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 2000s linear infinite;
+}
+
+@keyframes move {
+	to {
+		background-position: 100000px;
+	}
+}
