@@ -234,9 +234,8 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .h
   -webkit-text-fill-color: transparent;  
   animation: move 2000s linear infinite;
 }
-
 @keyframes move {
 	to {
-		background-position: 100000px;
+		background-position: 26000px;
 	}
 }
