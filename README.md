@@ -1,9 +1,8 @@
 # Better Badges by mr_miner
 The very first discord theme ive made.
  
-A small theme which adds neat animations to discord badges everything is in one css file with comments making it easily editable with little to no css knowledge.
+A small theme which adds neat animations to discord badges.
 
-Contains all badges except "Early Supporter".
 ### INSTALLATION FOR POWERCORD
 Clone the https://github.com/mr-miner1/Better-Badges in your themes folder
 ### INSTALLTION FOR BETTER DISCORD
