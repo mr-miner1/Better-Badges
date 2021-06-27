@@ -1,3 +1,4 @@
+
 @keyframes devbadge {
   0% {
     background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
@@ -76,7 +77,7 @@
     padding: 22px 22px 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
-    background-image: url("/assets/d66ce47c4ab7817190af9544f97e98cc.svg");
+    background-image: url("https://discord.com/assets/d66ce47c4ab7817190af9544f97e98cc.svg");
     transition-duration: 0.5s;
 }
 .clickable-17BDii[aria-label*="Early Supporter"]:hover > img{
@@ -111,7 +112,7 @@
   padding: 22px 22px 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
-  background-image: url("/assets/f62be1ec9bdd82d3d77158ad81830e68.svg");
+  background-image: url("https://discord.com/assets/f62be1ec9bdd82d3d77158ad81830e68.svg");
 }
 .clickable-17BDii[aria-label*="Discord Staff"]:hover >img{
   transform: scale(1.1);
@@ -122,8 +123,8 @@
 /* Hype Squad badges */
 .clickable-17BDii[aria-label*="HypeSquad B"] > img{
   transition-duration: 0.4s;
-  transform: scale(0.95);
-  padding: 24px 24px 0px 0px;
+  transform: scale(1.15);
+  padding: 22px 22px 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -133,27 +134,27 @@
 .clickable-17BDii[aria-label*="HypeSquad Bravery"]:hover > img{
   --hypesquad-colour: rgb(156, 132, 239);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848502137436635156/braverysquadbadge.png");
-  transform: scale(1.25);
+  transform: scale(1.35);
 }
 
 .clickable-17BDii[aria-label*="HypeSquad Brilliance"]:hover >img{
   --hypesquad-colour: rgb(244, 123, 103);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503338579656714/brilliancesquadbadge.png");
-  transform: scale(1.25);
+  transform: scale(1.35);
 }
 .clickable-17BDii[aria-label*="HypeSquad Balance"]:hover > img{
   --hypesquad-colour: rgb(69, 221, 192);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/848503229583065088/balancesquadbadge.png");
-    transform: scale(1.25);
+    transform: scale(1.35);
 }
 .clickable-17BDii[aria-label*="HypeSquad Bravery"] > img{
-  background-image: url("/assets/995ecfdbdf94ad84dd4d802c104e4630.svg") ;
+  background-image: url("https://discord.com/assets/995ecfdbdf94ad84dd4d802c104e4630.svg") ;
 }
 .clickable-17BDii[aria-label*="HypeSquad Brilliance"] > img{
-  background-image: url("/assets/473dadec13ab7e90e209cc60fccb31c5.svg") ;
+  background-image: url("https://discord.com/assets/473dadec13ab7e90e209cc60fccb31c5.svg") ;
 }
 .clickable-17BDii[aria-label*="HypeSquad Balance"] > img{
-  background-image: url("/assets/58f11abcf3c13812bff969baaeb84d82.svg") ;
+  background-image: url("https://discord.com/assets/58f11abcf3c13812bff969baaeb84d82.svg") ;
 }
 /* Hype squad events badges */
 .clickable-17BDii[aria-label*="HypeSquad Events"] {
