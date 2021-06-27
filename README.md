@@ -18,7 +18,7 @@ Go to the theme store and search better badges, download and apply
 For support you can dm me on discord (mr_miner#6969).
 For suggestions and bug reports you can dm me or put them in the issues tab.
 ### Theme Preview
-![badgespreview 1](https://i.imgur.com/0Fkk8TL.gif)
+![badgespreview 1](https://i.imgur.com/JARsWUV.gif)
 ### Todo
 ### v1.3 Customization
 Have a toggleable option to change all badges to their white variants
