@@ -1,7 +1,8 @@
 
 @use "src/coloredbadges.css";
-@use "src/BadgesEverywhere";
-//@import "source/whitebadges";
+@use "src/badgeseverywhere";
+//@import "src/whitebadges";
 :root{
     --badge-size: 22px; //discord defualt = 18px, theme defualt = 22px;
+    --badges-everywhere-size:16px;
 }
