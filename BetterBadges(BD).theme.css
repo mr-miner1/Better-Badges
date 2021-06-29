@@ -12,4 +12,5 @@
 :root{
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badges-everywhere-size: 16px; /*16px = defualt*/
+    --badge-margin: 1.5px; /*discord default = 2px, theme defualt = 1.5px*/
 }

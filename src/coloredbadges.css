@@ -35,8 +35,13 @@
     background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
   }
 }
-.profileBadges-ohc0Vu{
+.container-q03LZO>*{
   justify-content: flex-end;
+  margin: var(--badge-margin);
+}
+.clickable-17BDii > img{
+  height: var(--badge-size) !important;
+  width: var(--badge-size) !important;
 }
 /* Hype Squad Badges*/
 div[aria-label*="HypeSquad Events"] {
@@ -194,8 +199,8 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .h
   }
 }
 a[href*="https://support.discord.com"]:after{
-  animation: initialize 0.75s 1 normal linear 3s;
-  transform: translate(300px);
+  animation: initialize 2.75s 2 normal linear 4s;
+  transform: translate(30000px);
   content: "hi";
   font-size: 22px;
   position: absolute;
@@ -216,7 +221,7 @@ a[href*="https://support.discord.com"]:after{
   }
 }
 div[aria-label*="Inbox"]:after{
-  animation: devbadge 1.5s 1 4s normal linear;
+  animation: devbadge 5.5s 1.2 4s normal linear;
   transform: translate(300px);
   content: "hi";
   font-size: 22px;

@@ -12,10 +12,10 @@
   transform: scale(1) translate(10.5px,-15.5px);
 }
 .badges > [aria-label*="Server boosting"] > img{
-  transform: translate(0.75px, 0px);
-  height: calc(var(--badges-everywhere-size) - 2.12px);
-  width: calc(var(--badges-everywhere-size) - 2.12px);
+  height: calc(var(--badges-everywhere-size) - 1.9px) !important;
+  width: calc(var(--badges-everywhere-size) - 1.9px) !important;
+  transform: translateY(1.2px);
 }
 .badges > [aria-label*="Server boosting"]:hover > img{
-  transform: translate(0.75px, 0px) scale(0.85);
+  transform: translate(0.67px, 1.2px) scale(0.85);
 }
