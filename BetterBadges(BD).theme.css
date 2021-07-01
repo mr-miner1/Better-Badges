@@ -8,7 +8,7 @@
 */
 
 @import url('https://mr-miner1.github.io/Better-Badges/src/coloredbadges.css');
-@import url('https://mr-miner1.github.io/Better-Badges/src/badgeseverywhere.css');
+@import url('https://mr-miner1.github.io/Better-Badges/src/BadgesEverywhere.css');
 :root{
     --badge-size: 22px; /*discord defualt = 18px, theme defualt = 22px;*/
     --badges-everywhere-size: 16px; /*16px = defualt*/
