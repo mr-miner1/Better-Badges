@@ -20,10 +20,10 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 ### Theme Preview
 ![badgespreview 1](https://i.imgur.com/JARsWUV.gif)
 ### Todo
-### v1.3 Customization
-Have a toggleable option to change all badges to their white variants
+### v1.3 - Customization
+- [ ] Have a toggleable option to change all badges to their white variants and animations
 
-Have a customizable varaiable which lets you change badge size
+- [x] Have a customizable varaiable which lets you change badge size etc
 
-*Powercord Badges not including custom donator badges (80% chance to never happen)*
+- [ ] *Powercord Badges not including custom donator badges (80% chance to never happen or get pushed to 1.4)*
 ### Really like the theme? Best way to support it is to star the github repo!!
