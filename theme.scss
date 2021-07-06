@@ -1,7 +1,7 @@
 
 @use "src/coloredbadges.css";
-@use "src/BadgesEverywhere.css";
-// @use "src/whitebadges.css";
+@use "src/plugins.css";
+// @use "src/whitebadges/whitebadges.css";
 :root{
     --badge-size: 22px; //discord defualt = 18px, theme defualt = 22px;
     --badge-margin: 1.5px; //discord default = 2px, theme defualt = 1.5px

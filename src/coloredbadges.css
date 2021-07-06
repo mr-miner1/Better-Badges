@@ -141,12 +141,13 @@ div[aria-label*="Early Verified Bot Developer"]:hover >img {
 /* Partner badge */
 div[aria-label*="Partner"] > img{
   background-image: url("https://media.discordapp.net/attachments/855157744305831966/857513752501026817/partnerbadge.png") ;
-  transition-delay: 2s;
+  /* transition-delay: 2s; */
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
   filter: contrast(1.35);
-  transform: scale(0.9);
+  zoom: 90%;
+  transform: translateY(2.4px);
 }
 div[aria-label*="Partner"]:hover >img {
   padding: var(--badge-size) var(--badge-size) 0px 0px;
@@ -154,7 +155,6 @@ div[aria-label*="Partner"]:hover >img {
   box-sizing: border-box;
   filter: contrast(1.35);
   background-image: url('https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif') ;
-  transform: scale(0.9);
   transition-delay: 0s;
 }
 /* Certified moderator badge */
@@ -165,11 +165,11 @@ div[aria-label*="Certified Moderator"]:hover {
   transform: rotateY(540deg) scale(1.2);
 }
 /* Bug hunter badges */
-div[aria-label*="Bug Hunter"] {
+div[aria-label*="Bug Hunter"] > img{
   transition-duration: 0.5s;
 }
-div[aria-label*="Bug Hunter"]:hover {
-  transform: rotateY(180deg) rotate(-90deg) scale(1.1);
+div[aria-label*="Bug Hunter"]:hover > img {
+  transform: rotateY(180deg) rotate(-90deg);
 }
 /* Staff badges */
 div[aria-label*="Discord Staff"] > img{

@@ -24,3 +24,6 @@
   overflow: hidden;
   box-sizing: border-box;
 }
+.badges > div[aria-label*="Partner"] > img{
+  transform: translateY(1.6px);
+}
