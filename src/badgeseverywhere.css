@@ -4,7 +4,7 @@
   /* padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   position: absolute; */
 }
-.badges > div[aria-label*="Early Supporter"] > img, .badges > div[aria-label*="Discord Staff"] > img, .badges > div[aria-label*="Partner"] > img, .badges > div[aria-label*="HypeSquad Events"]:hover > img, .badges > div[aria-label*="Early Verified Bot Developer"]:hover > img{ 
+.badges > div[aria-label*="Early Supporter"] > img, .badges > div[aria-label*="Discord Staff"] > img, .badges > div[aria-label*="Partner"] > img, .badges > div[aria-label*="HypeSquad Events"] > img, .badges > div[aria-label*="Early Verified Bot Developer"]:hover > img{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
 }
 .badges > div[aria-label*="Early Supporter"]:hover::after{
@@ -17,7 +17,8 @@
   transform: translateY(1.2px);
 }
 .badges > [aria-label*="Server boosting"]:hover > img{
-  transform: translate(0.67px, 1.2px) scale(0.85);
+  /* transform: translate(0.5px, 1.2px); */
+  zoom: 100%;
 }
 .badges > div[aria-label*="HypeSquad B"] > img{
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;

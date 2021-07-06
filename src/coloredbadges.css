@@ -44,15 +44,21 @@
   width: var(--badge-size) !important;
 }
 /* Hype Squad Badges*/
-div[aria-label*="HypeSquad Events"] {
-  transform: scale(1) translateY(0px);
+div[aria-label*="HypeSquad Events"] > img{
+  transition-delay: 2s;
+  padding: var(--badge-size) var(--badge-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-image: url('https://media.discordapp.net/attachments/858737145358712853/861956347645394994/events1.png');
+  transform: translateY(-1.5px);
 }
 div[aria-label*="HypeSquad Events"]:hover >img {
     padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
   background-image: url('https://media.discordapp.net/attachments/756856464374628352/849218085961596948/events.gif') ;
-  transform: scale(1) translateY(-1.5px);
+  transform: translateY(-1.5px);
+  transition-delay: 0s;
 }
 div[aria-label*="HypeSquad B"] > img{
   transition-duration: 0.4s;
@@ -100,18 +106,18 @@ div[aria-label*="Subscriber"]:hover {
 /* Booster badges */
 div[aria-label*="Server boosting"]:hover >img {
   content: url("https://cdn.discordapp.com/emojis/845808489238757426.gif");
-  transform: translate(1.75px, 1.8px) scale(0.85);
+  transform: translate(0.5px, 1.9px);
 }
 div[aria-label*="Server boosting"] > img{
   height: calc(var(--badge-size) - 2.59px) !important;
   width: calc(var(--badge-size) - 2.59px) !important;
-  transform: translate(1.5px, 1.8px);
+  transform: translate(0.5px, 1.9px);
 }
 /* Early Supporter */
 div[aria-label*="Early Supporter"] > img{
   padding: var(--badge-size) var(--badge-size) 0px 0px;
-overflow: hidden;
-box-sizing: border-box;
+  overflow: hidden;
+  box-sizing: border-box;
   background-image: url("https://discord.com/assets/d66ce47c4ab7817190af9544f97e98cc.svg");
   transition-duration: 0.5s;
 }
@@ -141,7 +147,7 @@ div[aria-label*="Early Verified Bot Developer"]:hover >img {
 /* Partner badge */
 div[aria-label*="Partner"] > img{
   background-image: url("https://media.discordapp.net/attachments/855157744305831966/857513752501026817/partnerbadge.png") ;
-  /* transition-delay: 2s; */
+  transition-delay: 2s;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
@@ -150,10 +156,6 @@ div[aria-label*="Partner"] > img{
   transform: translateY(2.4px);
 }
 div[aria-label*="Partner"]:hover >img {
-  padding: var(--badge-size) var(--badge-size) 0px 0px;
-  overflow: hidden;
-  box-sizing: border-box;
-  filter: contrast(1.35);
   background-image: url('https://media.discordapp.net/attachments/756856464374628352/848503285556051988/partnerbadge.gif') ;
   transition-delay: 0s;
 }
