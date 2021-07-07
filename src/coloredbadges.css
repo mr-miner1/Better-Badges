@@ -187,19 +187,7 @@ div[aria-label*="Discord Staff"]:hover >img{
   filter:brightness(0.8) contrast(1.5) saturate(0.975);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849207087409528842/staff.png");
 }
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy{
-  background-image: 
-  linear-gradient(to right, #FF6663,#FEB144,#FDFD97,#9EE09E,#9EC1CF,#A05BFD, #CC99C9); 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;  
-  animation: move 2000s linear infinite;
-}
-@keyframes move {
-  to {
-      background-position: 26000px;
-  }
-}
+/* initialization */
 a[href*="https://support.discord.com"]:after{
   animation: initialize 2.75s 2 normal linear 4s;
   transform: translate(30000px);
@@ -228,4 +216,41 @@ div[aria-label*="Inbox"]:after{
   content: "hi";
   font-size: 22px;
   position: absolute;
+}
+/* "watermark" */
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy{
+  background-image: 
+  linear-gradient(to right, #7ac6f1 , #5470be); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 2000s linear infinite;
+}
+@keyframes move {
+  to {
+      background-position: 12000px;
+  }
+}
+/* div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div{
+  border-top: 1px solid #54a0be !important;
+  border-left: 1px solid #7aaaf1 !important;
+  border-right: 1px solid #54aebe !important;
+  border-bottom:  1px solid #7aa4f1 !important;
+  color: #809fb1;
+} */
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleName-32vpEy{
+  font-size: 0px;
+}
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div, div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleName-32vpEy{ 
+  transition-duration: 0.5s;
+}
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div::after{
+  font-size: 12px;
+  content: "BetterBadges";
+  text-align: center;
+}
+div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleCircle-3xAZ1j{
+  /* border-radius: 2px; */
+  margin-right: 2px;
+  /* background-image: radial-gradient(#7aa4f1, #54a0be ); */
 }
