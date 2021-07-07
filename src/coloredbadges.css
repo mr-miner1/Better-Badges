@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @keyframes devbadge {
   0% {
     background-image: url("https://media.discordapp.net/attachments/756856464374628352/848838640197304341/thing1.png");
@@ -220,37 +221,35 @@ div[aria-label*="Inbox"]:after{
 /* "watermark" */
 div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy{
   background-image: 
-  linear-gradient(to right, #7ac6f1 , #5470be); 
+  linear-gradient(to bottom,  #5470be,  #7ac6f1); 
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
-  animation: move 2000s linear infinite;
+  animation: move 10000s linear infinite;
 }
 @keyframes move {
   to {
-      background-position: 12000px;
+      background-position: 12000px 100px;
   }
 }
-/* div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div{
-  border-top: 1px solid #54a0be !important;
-  border-left: 1px solid #7aaaf1 !important;
-  border-right: 1px solid #54aebe !important;
-  border-bottom:  1px solid #7aa4f1 !important;
-  color: #809fb1;
+/* .userPopout-xaxa6l[aria-label="mr_miner"] .nickname-3M3Jfa, .userPopout-xaxa6l[aria-label="mr_miner"] .headerTagNoNickname-3qrd77{
+  background-image: 
+  linear-gradient(to bottom,  #5470be,  #7ac6f1) !important; 
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;  
+  animation: move 100000s linear infinite;
+}
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerTag-3GFl76{
+  -webkit-text-fill-color: rgb(142, 117, 253);  
 } */
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleName-32vpEy{
-  font-size: 0px;
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerText-1vVs-U::after{
+  content:"Better Badges Dev";
+  font-size: 13px;
+  -webkit-text-fill-color: rgb(226, 117, 253);  
+  font-family: 'Slabo 13px', sans-serif;
+  font-weight: 500;
 }
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div, div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleName-32vpEy{ 
-  transition-duration: 0.5s;
-}
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div::after{
-  font-size: 12px;
-  content: "BetterBadges";
-  text-align: center;
-}
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9:hover > .header-23xsNx > .headerText-3Uvj1Y > .username-1A8OIy ~ .toprole-wrapper > div > .roleCircle-3xAZ1j{
-  /* border-radius: 2px; */
-  margin-right: 2px;
-  /* background-image: radial-gradient(#7aa4f1, #54a0be ); */
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
+  content: "" !important;
 }
