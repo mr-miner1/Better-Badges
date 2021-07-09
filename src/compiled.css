@@ -236,75 +236,7 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e:hove
 div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
   transition-duration: 0.2s;
 }
-
-.container-q03LZO>*{
-  justify-content: flex-end;
-  margin: var(--badge-margin);
-}
-.clickable-17BDii > img{
-  height: var(--badge-size) !important;
-  width: var(--badge-size) !important;
-  padding: var(--badge-size) var(--badge-size) 0px 0px;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-div[aria-label*="Discord Staff"] > img {
-  background-image: url("/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important;
-}
-div[aria-label*="Partner"] > img {
-  background-image: url("/assets/a6a741e07b5ec2d1583f8b98df3c2143.svg") !important;
-}
-div[aria-label*="HypeSquad Events"] > img {
-  background-image: url("/assets/3a050fcc884255231b99b7033c776070.svg") !important;
-  transform: translateY(-1.5px);
-  zoom: 90%;
-}
-div[aria-label*="HypeSquad Bravery"] > img {
-  background-image: url("/assets/1115767aed344e96a27a12e97718c171.svg") !important;
-  zoom: 90%;
-}
-div[aria-label*="HypeSquad Brilliance"] > img {
-  background-image: url("/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
-  zoom: 90%;
-}
-div[aria-label*="HypeSquad Balance"] > img {
-  background-image: url("/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
-  zoom: 90%;
-}
-div[aria-label*="Early Verified Bot Developer"] > img {
-  background-image: url("/assets/785d81fdbedd133e213da693aba98774.svg") !important;
-}
-div[aria-label*="Early Supporter"] > img {
-  background-image: url("/assets/ce15562552e3d70c56d5408cfeed2ffd.svg") !important;
-}
-div[aria-label*="Subscriber"] > img {
-  background-image: url("/assets/379d2b3171722ef8be494231234da5d1.svg") !important;
-}
-div[aria-label*="Bug Hunter"] > img {
-  background-image: url("/assets/df26f079738a4dcd07cbce6eb3c957f1.svg") !important;
-}
-div[aria-label*="Server boosting"] > img{
-  filter: brightness(1.1) opacity(100%) grayscale(1.05);
-  padding: 0px 0px 0px 0px;
-  overflow:auto;
-  box-sizing: border-box;
-}
-div[aria-label*="Certified Moderator"] >img{
- padding: 0px 0px 0px 0px;
- overflow:auto;
-   box-sizing: border-box;
-   filter: brightness(4);
-}
-.badges > div[aria-label*="Bug Hunter"] > img{
-  padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
-  overflow: hidden;
-  box-sizing: border-box;
-}
-.badges > div[aria-label*="Subscriber"] > img{
-  padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
-  overflow: hidden;
-  box-sizing: border-box;
-}
+/* badges everywhere */
 .badges > div > img{
     height: var(--badges-everywhere-size) !important;
     width: var(--badges-everywhere-size) !important;
