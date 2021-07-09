@@ -1,11 +1,11 @@
 .badges > div > img{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
-  /* padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
-  position: absolute; */
 }
 .badges > div[aria-label*="Early Supporter"] > img, .badges > div[aria-label*="Discord Staff"] > img, .badges > div[aria-label*="Partner"] > img, .badges > div[aria-label*="HypeSquad Events"] > img, .badges > div[aria-label*="Early Verified Bot Developer"]:hover > img{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 .badges > div[aria-label*="Early Supporter"]:hover::after{
   font-size: calc(var(--badges-everywhere-size)*0.5454);
@@ -26,5 +26,5 @@
   box-sizing: border-box;
 }
 .badges > div[aria-label*="Partner"] > img{
-  transform: translateY(1.6px);
+  transform: translate(1px, 0.3px);
 }

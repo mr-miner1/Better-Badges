@@ -35,6 +35,10 @@
       background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782102651142194/verifieddevinverted16.png");
     }
 } */
+.container-q03LZO>*{
+  justify-content: flex-end;
+  margin: var(--badge-margin);
+}
 .clickable-17BDii > img{
   height: var(--badge-size) !important;
   width: var(--badge-size) !important;
@@ -50,19 +54,20 @@ div[aria-label*="Partner"] > img {
 }
 div[aria-label*="HypeSquad Events"] > img {
   background-image: url("/assets/3a050fcc884255231b99b7033c776070.svg") !important;
-  transform: scale(0.9) translateY(-1.5px);
+  transform: translateY(-1.5px);
+  zoom: 90%;
 }
 div[aria-label*="HypeSquad Bravery"] > img {
   background-image: url("/assets/1115767aed344e96a27a12e97718c171.svg") !important;
-  transform: scale(0.9);
+  zoom: 90%;
 }
 div[aria-label*="HypeSquad Brilliance"] > img {
   background-image: url("/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
-  transform: scale(0.9);
+  zoom: 90%;
 }
 div[aria-label*="HypeSquad Balance"] > img {
   background-image: url("/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
-  transform: scale(0.9);
+  zoom: 90%;
 }
 div[aria-label*="Early Verified Bot Developer"] > img {
   background-image: url("/assets/785d81fdbedd133e213da693aba98774.svg") !important;
@@ -87,5 +92,14 @@ div[aria-label*="Certified Moderator"] >img{
  overflow:auto;
    box-sizing: border-box;
    filter: brightness(4);
-   transform: scale(1.05);
+}
+.badges > div[aria-label*="Bug Hunter"] > img{
+  padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.badges > div[aria-label*="Subscriber"] > img{
+  padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
