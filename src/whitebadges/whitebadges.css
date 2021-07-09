@@ -1,40 +1,4 @@
-/* @keyframes devbadge2 {
-    0% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850781991178862652/verifieddevinverted1.png");
-    } 6.25% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850781992584216586/verifieddevinverted2.png");
-    } 12.5% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850781995613159444/verifieddevinverted3.png");
-    } 18.75% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850781998308917288/verifieddevinverted4.png");
-    } 25% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782001476534292/verifieddevinverted5.png");
-    } 31.25% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782004488568833/verifieddevinverted6.png")
-    } 37.5% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782009285935165/verifieddevinverted7.png");
-    } 43.75% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782012448571412/verifieddevinverted8.png");
-    } 50% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782015145639966/verifieddevinverted9.png");
-    } 56.25% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782017837989899/verifieddevinverted10.png");
-    } 62.5% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782091158880326/verifieddevinverted11.png")
-    } 68.75% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782093038583818/verifieddevinverted12.png");
-    } 75% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782095060238346/verifieddevinverted13.png");
-    } 81.25% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782096921985024/verifieddevinverted14.png");
-    } 87.5% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782100461191168/verifieddevinverted15.png")
-    } 93.75% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782102651142194/verifieddevinverted16.png");
-    } 100% {
-      background-image: url("https://media.discordapp.net/attachments/756856464374628352/850782102651142194/verifieddevinverted16.png");
-    }
-} */
+
 .container-q03LZO>*{
   justify-content: flex-end;
   margin: var(--badge-margin);
