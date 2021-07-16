@@ -1,6 +1,8 @@
 
 :root{
   --badge-size: 18px !important;
+  --badge-margin: 1.5px;
+  --badges-everywhere-size:15px;
 }
 .container-q03LZO>*{
   justify-content: flex-end;
