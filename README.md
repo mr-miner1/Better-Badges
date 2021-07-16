@@ -21,7 +21,7 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 ![badgespreview 1](https://i.imgur.com/JARsWUV.gif)
 ### Todo
 ### v1.3 - Customization
-- [ ] Have a toggleable option to change all badges to their white variants and animations
+- [x] White Badges 
 
 - [x] Have a customizable varaiable which lets you change badge size etc
 
