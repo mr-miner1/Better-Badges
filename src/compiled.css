@@ -1,3 +1,8 @@
+:root{
+  --badge-size: 22px;
+  --badge-margin: 1.5px;
+  --badges-everywhere-size:15px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @keyframes devbadge {
   0% {
@@ -121,10 +126,10 @@ img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]{
 div:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]{
 transform: scale(1.16);
 }
-div:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]::after{
+div[aria-label*="Early Supporter"]:hover::after{
   transform: scale(1) translate(12.5px,-11px);
 }
-img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]::after{
+div[aria-label*="Early Supporter"]::after{
   background-color: transparent;
   content: "❤";
   color: #dd504d;
@@ -237,14 +242,10 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
 }
-.badges > div[aria-label*="Early supporter"] > img, .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges > div[aria-label*="HypeSquad B"] > img, .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
+.badges img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges > div[aria-label*="HypeSquad B"] > img, .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
-}
-.badges > div[aria-label*="Early supporter"]:hover::after{
-  font-size: calc(var(--badges-everywhere-size)*0.5454);
-  transform: scale(1) translate(10.5px,-15.5px);
 }
 .badges > [aria-label*="Server boosting"] > img{
   height: calc(var(--badges-everywhere-size) - 1.9px) !important;
@@ -253,4 +254,8 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
 }
 .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"]{
   transform: translate(1px, 0.3px);
+}
+.badges > div[aria-label*="Early Supporter"]:hover::after{
+  font-size: calc(var(--badges-everywhere-size)*0.5454);
+  transform: scale(1) translate(10.5px,-15.5px);
 }

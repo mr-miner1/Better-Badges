@@ -226,10 +226,3 @@ a[href*="https://support.discord.com"]:after{
 .userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
   content: "" !important;
 }
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e:hover{
-  transform: scale(1.1);
-  filter: hue-rotate(-60deg);
-}
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
-  transition-duration: 0.2s;
-}
