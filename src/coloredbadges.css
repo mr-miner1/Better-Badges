@@ -121,10 +121,10 @@ img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]{
 div:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]{
 transform: scale(1.16);
 }
-div:hover > img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]::after{
+div[aria-label*="Early Supporter"]:hover::after{
   transform: scale(1) translate(12.5px,-11px);
 }
-img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]::after{
+div[aria-label*="Early Supporter"]::after{
   background-color: transparent;
   content: "❤";
   color: #dd504d;
