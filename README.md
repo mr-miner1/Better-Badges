@@ -25,5 +25,7 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 
 - [x] Have a customizable varaiable which lets you change badge size etc
 
+- [x] Re-Write to support other languages
+
 - [ ] *Powercord Badges not including custom donator badges (80% chance to never happen or get pushed to 1.4)*
 ### Really like the theme? Best way to support it is to star the github repo!!
