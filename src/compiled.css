@@ -106,11 +106,26 @@ div:hover > img[src="/assets/e04ce699dcd2fd50d352a384511687a9.svg"]{
   filter: contrast(1.2) hue-rotate(-390deg);
 }
 /* Booster badges */
-div[aria-label*="Server boosting"]:hover > img {
+div:hover > img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
+div:hover > img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
+div:hover > img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
+div:hover > img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
+div:hover > img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
+div:hover > img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+div:hover > img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+div:hover > img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
+div:hover > img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
   content: url("https://cdn.discordapp.com/emojis/845808489238757426.gif");
-  transform: translate(0.5px, 1.9px);
 }
-div[aria-label*="Server boosting"] > img{
+img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
+img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
+img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
+img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
+img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
+img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
+img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
   height: calc(var(--badge-size) - 2.59px) !important;
   width: calc(var(--badge-size) - 2.59px) !important;
   transform: translate(0.5px, 1.9px);
@@ -231,13 +246,6 @@ a[href*="https://support.discord.com"]:after{
 .userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
   content: "" !important;
 }
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e:hover{
-  transform: scale(1.1);
-  filter: hue-rotate(-60deg);
-}
-div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
-  transition-duration: 0.2s;
-}
 .badges img{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
@@ -247,15 +255,23 @@ div[data-user-id^="678541597654253600"] > .contents-2mQqc9 > .avatar-1BDn8e{
   overflow: hidden;
   box-sizing: border-box;
 }
-.badges > [aria-label*="Server boosting"] > img{
-  height: calc(var(--badges-everywhere-size) - 1.9px) !important;
-  width: calc(var(--badges-everywhere-size) - 1.9px) !important;
-  transform: translateY(1.2px);
-}
 .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"]{
   transform: translate(1px, 0.3px);
 }
 .badges > div[aria-label*="Early Supporter"]:hover::after{
   font-size: calc(var(--badges-everywhere-size)*0.5454);
   transform: scale(1) translate(10.5px,-15.5px);
+}
+.badges img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
+.badges img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
+.badges img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
+.badges img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
+.badges img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
+.badges img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+.badges img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+.badges img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
+.badges img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
+  height: calc(var(--badges-everywhere-size) - 1.9px) !important;
+  width: calc(var(--badges-everywhere-size) - 1.9px) !important;
+  transform: translateY(1.2px);
 }

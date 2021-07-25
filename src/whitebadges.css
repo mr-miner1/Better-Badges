@@ -29,12 +29,15 @@ img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"]{
 }
 /* bravery|brilliance|balance */
 img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"]{
+  transform: scale(0.85);
   background-image: url("https://discord.com/assets/1115767aed344e96a27a12e97718c171.svg") !important;
 }
 img[src="/assets/473dadec13ab7e90e209cc60fccb31c5.svg"]{
+  transform: scale(0.85);
   background-image: url("https://discord.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg") !important;
 }
 img[src="/assets/58f11abcf3c13812bff969baaeb84d82.svg"]{
+  transform: scale(0.85);
   background-image: url("https://discord.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg") !important;
 }
 /*verified bot dev*/
@@ -54,7 +57,15 @@ img[src="/assets/5c6bb5c4640972078fc993f1b5f503ce.svg"], img[src="/assets/46f6a2
   background-image: url("https://discord.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg") !important;
 }
 /* server booster */
-div[aria-label*="Server boosting"] > img{
+img[src="/assets/1d3c9e1123aee11a325af328609d1274.svg"],
+img[src="/assets/dd50d32cf4fee241b2fa022d8c0435ae.svg"],
+img[src="/assets/7294cc730410a1caeceeca736f800b42.svg"],
+img[src="/assets/ce54a4f8c0e133a6f2d60336e7acac7d.svg"],
+img[src="/assets/c0c9db2de008e61a1a720581ca175fa1.svg"],
+img[src="/assets/556158300f0dca136d3c902586ff1316.svg"],
+img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
+img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
+img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
   filter: brightness(1.1) opacity(100%) grayscale(1.05);
   padding: 0px 0px 0px 0px;
   overflow:auto;
@@ -63,7 +74,7 @@ div[aria-label*="Server boosting"] > img{
 /* certifed moderator */
 img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
  padding: 0px 0px 0px 0px;
- overflow:auto;
+ overflow:visible;
    box-sizing: border-box;
    filter: brightness(4);
 }
@@ -72,10 +83,5 @@ img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
-  overflow: hidden;
   box-sizing: border-box;
-}
-.badges img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"]{
-  overflow: visible;
-  padding: 0px 0px 0px 0px;
 }
