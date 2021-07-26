@@ -23,9 +23,11 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 ### v1.3 - Customization
 - [x] White Badges 
 
-- [x] Have a customizable varaiable which lets you change badge size etc
+- [x] Customizable varaiables which lets you change badge size etc
 
 - [x] Re-Write to support other languages
+
+- [x] No badges found "badge"
 
 - [ ] *Powercord Badges not including custom donator badges (80% chance to never happen or get pushed to 1.4)*
 ### Really like the theme? Best way to support it is to star the github repo!!

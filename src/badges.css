@@ -200,6 +200,31 @@ div:hover > img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"]{
   filter:brightness(0.8) contrast(1.5) saturate(0.975);
   background-image: url("https://media.discordapp.net/attachments/756856464374628352/849207087409528842/staff.png");
 }
+.warningCircleIcon-3R0DLw{
+  transition-duration: 0.2s;
+  height: var(--badge-size);
+  width: var(--badge-size);
+  transform: scale(1);
+}
+.warningCircleIcon-3R0DLw:hover{
+  transform: scale(1.5);
+  animation: shake 0.82s 0.25s normal ease;
+}
+.warningCircleIcon-3R0DLw:hover path{
+  d: path("M 10 0 Z M 9 4 H 11 V 11 H 9 V 4 Z M 10 15.25 C 9.31 15.25 8.75 14.691 8.75 14 C 8.75 13.31 9.31 12.75 10 12.75 C 10.69 12.75 11.25 13.31 11.25 14 C 11.25 14.691 10.69 15.25 10 15.25 Z")
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate(-0.5px) scale(1.5);
+  }20%, 80% {
+    transform: translate(1px) scale(1.5);
+  }30%, 50%, 70% {
+    transform: translate(-2px) scale(1.5);
+  }40%, 60% {
+    transform: translate(2px) scale(1.5);
+  }
+}
 /* initialization */
 a[href*="https://support.discord.com"]:after{
   animation: initialize 2.75s 2 normal linear 4s;

@@ -78,10 +78,21 @@ img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
    box-sizing: border-box;
    filter: brightness(4);
 }
+.warningCircleIcon-3R0DLw path{
+  fill: white;
+}
+.warningCircleIcon-3R0DLw{
+  height: var(--badge-size);
+  width: var(--badge-size);
+}
 /* badges everywhere */
 .badges img{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   box-sizing: border-box;
+}
+/* powercord badges */
+.powercord-badge path{
+  fill: white;
 }
