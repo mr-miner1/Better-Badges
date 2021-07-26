@@ -1,3 +1,8 @@
+:root{
+  --badge-size: 22px; 
+  --badge-margin: 1.5px;
+  --badges-everywhere-size:15px;
+}
 @import url('https://fonts.googleapis.com/css2?family=Slabo+13px&display=swap');
 @keyframes devbadge {
   0% {
