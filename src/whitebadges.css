@@ -17,7 +17,7 @@
 }
 /* discord staff */
 img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"]{
-  background-image: url("https://discord.com/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important;
+  background-image: url("https://discord.com/assets/7cfd90c8062139e4804a1fa59f564731.svg") !important
 }
 /* partner */
 img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"]{
@@ -81,7 +81,7 @@ img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
 .warningCircleIcon-3R0DLw path{
   fill: white;
 }
-.warningCircleIcon-3R0DLw{
+.warningCircleIcon-3R0DLw, .warningCircleIcon-cBU5e2{
   height: var(--badge-size);
   width: var(--badge-size);
 }
@@ -95,4 +95,15 @@ img[src="/assets/2af69d4f9d2ff38a7cf76fab0907ea7a.svg"] {
 /* powercord badges */
 .powercord-badge path{
   fill: white;
+}
+/* coolkid */
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerText-1vVs-U::after{
+  content:"Better Badges Dev";
+  font-size: 13px;
+  -webkit-text-fill-color: rgb(226, 117, 253);  
+  font-family: 'Slabo 13px', sans-serif;
+  font-weight: 500;
+}
+.userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
+  content: "" !important;
 }

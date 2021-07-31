@@ -4,14 +4,12 @@ The very first discord theme ive made.
 A small theme which adds neat animations to discord badges.
 
 ### Installation For Powercord
-Clone https://github.com/mr-miner1/Better-Badges in your themes folder
-
-Or run 
+Run the following command in cmd
 ```
 cd powercord/src/Powercord/themes && git clone https://github.com/mr-miner1/Better-Badges
 ```
 ### Installation for BetterDiscord
-Download the [BetterBadges(BD).theme.css](https://github.com/mr-miner1/Better-Badges/blob/main/BetterBadges(BD).theme.css) and put it in your themes folder
+Download the file from [here](https://betterdiscord.app/theme/Better%20Badges) and put it in your themes folder
 ### Installation For GooseMod
 Go to the theme store and search better badges, download and apply
 ### Support and Suggesions
@@ -29,5 +27,5 @@ For suggestions and bug reports you can dm me or put them in the issues tab.
 
 - [x] No badges found "badge"
 
-- [ ] *Powercord Badges not including custom donator badges (80% chance to never happen or get pushed to 1.4)*
+- [ ] ~~Powercord Badges not including custom donator badges (80% chance to never happen or get pushed to 1.4)~~
 ### Really like the theme? Best way to support it is to star the github repo!!
