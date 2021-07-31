@@ -296,11 +296,10 @@ a[href*="https://support.discord.com"]:after{
 .badges-XRnWAp img[src="/assets/ba38c1c57dfccb94127e53b7ac502a90.svg"],
 .badges-XRnWAp img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
 .badges-XRnWAp img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
-  height: calc(var(--badges-everywhere) - 1.9px) !important;
-  width: calc(var(--badges-everywhere) - 1.9px) !important;
+  height: calc(var(--badges-everywhere-size) - 1.9px) !important;
+  width: calc(var(--badges-everywhere-size) - 1.9px) !important;
   padding: 0px 0px 0px 0px;
   overflow: visible;
-  transform: translateY(1.2px);
 }
 .badges-XRnWAp img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges-XRnWAp > div[aria-label*="HypeSquad B"] > img, .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
 padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
