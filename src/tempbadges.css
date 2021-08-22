@@ -261,7 +261,6 @@ a[href*="https://support.discord.com"]:after{
 .badges img, .badges-XRnWAp img{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
-  margin: 0px;
 }
 .badges img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges > div[aria-label*="HypeSquad B"] > img, .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
