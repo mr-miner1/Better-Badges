@@ -68,14 +68,14 @@ div:hover > img[src="/assets/e666a84a7a5ea2abbbfa73adf22e627b.svg"] {
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
-div[aria-label*="HypeSquad B"] > img{
+div[aria-label*="HypeSquad"] > img{
   transition-duration: 0.4s;
   transform: scale(1.15);
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
 }
-div[aria-label*="HypeSquad B"]:hover > img{
+div[aria-label*="HypeSquad"]:hover > img{
   filter: drop-shadow(0px 0px 2px var(--hypesquad-colour));
 }
 div:hover > img[src="/assets/efcc751513ec434ea4275ecda4f61136.svg"]{
@@ -268,7 +268,7 @@ a[href*="https://support.discord.com"]:after{
 .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], 
 .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], 
 .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], 
-.badges > div[aria-label*="HypeSquad B"] > img, 
+.badges > div[aria-label*="HypeSquad"] > img, 
 .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] 
 .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
@@ -310,7 +310,7 @@ a[href*="https://support.discord.com"]:after{
   padding: 0px 0px 0px 0px;
   overflow: visible;
 }
-.badges-XRnWAp img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges-XRnWAp > div[aria-label*="HypeSquad B"] > img, .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
+.badges-XRnWAp img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges-XRnWAp > div[aria-label*="HypeSquad"] > img, .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
 padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
 overflow: hidden;
 }
@@ -423,14 +423,14 @@ div:hover > img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"] {
   transform: translateY(-1.5px);
   transition-delay: 0s;
 }
-div[aria-label*="HypeSquad B"] > img{
+div[aria-label*="HypeSquad"] > img{
   transition-duration: 0.4s;
   transform: scale(1.15);
   padding: var(--badge-size) var(--badge-size) 0px 0px;
   overflow: hidden;
   box-sizing: border-box;
 }
-div[aria-label*="HypeSquad B"]:hover > img{
+div[aria-label*="HypeSquad"]:hover > img{
   filter: drop-shadow(0px 0px 2px var(--hypesquad-colour));
 }
 div:hover > img[src="/assets/995ecfdbdf94ad84dd4d802c104e4630.svg"]{
@@ -489,7 +489,7 @@ img[src="/assets/42ecb902decfc8e83a7446a0904b1e18.svg"],
 img[src="/assets/496aa1174817ec391612f745dc8e0725.svg"]{
   height: calc(var(--badge-size) - 2.59px) !important;
   width: calc(var(--badge-size) - 2.59px) !important;
-  transform: translate(0.5px, 1.9px);
+  /* transform: translate(0.5px, 1.9px); */
 }
 /* Early Supporter */
 img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"]{
@@ -617,7 +617,7 @@ a[href*="https://support.discord.com"]:after{
   height: var(--badges-everywhere-size) !important;
   width: var(--badges-everywhere-size) !important;
 }
-.badges img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges > div[aria-label*="HypeSquad B"] > img, .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
+.badges img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges > div[aria-label*="HypeSquad"] > img, .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
   padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
   overflow: hidden;
 }
@@ -656,7 +656,7 @@ a[href*="https://support.discord.com"]:after{
   padding: 0px 0px 0px 0px;
   overflow: visible;
 }
-.badges-XRnWAp img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges-XRnWAp > div[aria-label*="HypeSquad B"] > img, .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
+.badges-XRnWAp img[src="/assets/d66ce47c4ab7817190af9544f97e98cc.svg"], .badges-XRnWAp img[src="/assets/f62be1ec9bdd82d3d77158ad81830e68.svg"], .badges-XRnWAp img[src="/assets/53828e0c0fb6676440ad11b5d2586241.svg"], .badges-XRnWAp img[src="/assets/f5354673c9cff61c1dcc70081ef774e5.svg"], .badges-XRnWAp > div:hover > img[src="/assets/877dc8bece1590e63fac6d5a0cd2a225.svg"], .badges-XRnWAp > div[aria-label*="HypeSquad"] > img, .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"] .badges-XRnWAp img[src="/assets/46f6a28f462889f1a36cfca2591fcade.svg"]{ 
 padding: var(--badges-everywhere-size) var(--badges-everywhere-size) 0px 0px;
 overflow: hidden;
 }
