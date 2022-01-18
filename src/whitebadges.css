@@ -4,11 +4,11 @@
   --badge-margin: 1.5px;
   --badges-everywhere-size:15px;
 }
-.container-q03LZO>*{
+.container-1gYwHN>*{
   justify-content: flex-end;
   margin: var(--badge-margin);
 }
-.clickable-17BDii > img{
+.clickable-1knRMS > img{
   height: var(--badge-size) !important;
   width: var(--badge-size) !important;
   padding: var(--badge-size) var(--badge-size) 0px 0px;
@@ -78,10 +78,10 @@ img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
    box-sizing: border-box;
    filter: brightness(4);
 }
-.warningCircleIcon-3R0DLw path{
+.warningCircleIcon-1YXIHu path{
   fill: white;
 }
-.warningCircleIcon-3R0DLw, .warningCircleIcon-cBU5e2{
+.warningCircleIcon-1YXIHu, .warningCircleIcon-mFju_m{
   height: var(--badge-size);
   width: var(--badge-size);
 }
@@ -97,13 +97,13 @@ img[src="/assets/c981e58b5ea4b7fedd3a643cf0c60564.svg"] {
   fill: white;
 }
 /* coolkid */
-.userPopout-xaxa6l[aria-label="mr_miner"] .headerText-1vVs-U::after{
+.userPopout-2j1gM4[aria-label="mr_miner"] .headerText-1-WmDq::after{
   content:"Better Badges Dev";
   font-size: 13px;
   -webkit-text-fill-color: rgb(226, 117, 253);  
   font-family: 'Slabo 13px', sans-serif;
   font-weight: 500;
 }
-.userPopout-xaxa6l[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-D-AYUN:after{
+.userPopout-2j1gM4[aria-label="mr_miner"] .headerTagDiscriminatorNoNickname-dfcvHa:after{
   content: "" !important;
 }
